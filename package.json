@@ -1,0 +1,66 @@
+{
+  "name": "e_learning_project",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.22",
+    "@fortawesome/free-brands-svg-icons": "^5.10.2",
+    "@fortawesome/free-regular-svg-icons": "^5.10.2",
+    "@fortawesome/free-solid-svg-icons": "^5.10.2",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "ant-design-pro": "^2.3.2",
+    "antd": "^3.22.1",
+    "axios": "^0.19.0",
+    "bcrypt": "^3.0.6",
+    "bootstrap": "^4.3.1",
+    "express": "^4.17.1",
+    "history": "^4.9.0",
+    "install": "^0.13.0",
+    "jwt-decode": "^2.2.0",
+    "mongoose": "^5.6.10",
+    "mongoose-type-email": "^1.0.11",
+    "nodemailer": "^6.3.0",
+    "npm": "^6.11.2",
+    "react": "^16.9.0",
+    "react-bootstrap": "^1.0.0-beta.11",
+    "react-dom": "^16.9.0",
+    "react-mdl": "^1.11.0",
+    "react-responsive-carousel": "^3.1.50",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.1.1",
+    "react-vis": "^1.11.7",
+    "reactstrap": "^8.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:5000",
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {
+    "codemirror": "^5.48.4",
+    "concurrently": "^4.1.2",
+    "react-codemirror": "^1.0.0",
+    "react-router-role-authorization": "^1.1.4"
+  },
+  "author": "chames",
+  "license": "ISC"
+}

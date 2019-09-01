@@ -1,0 +1,150 @@
+.tableMargin {
+  margin-top: 50px;
+}
+.formAddCoach {
+  margin-top: 80px;
+}
+.deleteIcon {
+  color: red;
+}
+.backgroundColor {
+  background-color: red;
+}
+.imagelogo {
+  height: 30px;
+  width: 30px;
+}
+
+.carousel {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+.carousel-inner {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+.carousel-item {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+.page {
+  width: 100%;
+  height: 100%;
+  margin-top: 50px;
+}
+.App {
+  height: 100%;
+}
+#root {
+  height: 100%;
+}
+body {
+  height: 100%;
+}
+.problem {
+  color: white;
+  background: #232526; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #414345,
+    #232526
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #414345,
+    #232526
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.StudentBackgroundOne {
+  background-image: url("https://images.unsplash.com/photo-1546146830-2cca9512c68e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80");
+
+  background-repeat: no-repeat;
+  animation-name: BackgroundAnimated;
+  animation-duration: 15s;
+
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  background-size: 100% 100%;
+}
+@keyframes BackgroundAnimated {
+  from {
+    background-image: url("https://images.unsplash.com/photo-1546146830-2cca9512c68e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80");
+  }
+  to {
+    background-image: url("https://images.unsplash.com/photo-1481201779555-88fcea2968ca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+  }
+}
+
+.pageDM {
+  width: 100%;
+  height: 100%;
+}
+.backgroundCoach {
+  background: #e52d27; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #b31217,
+    #e52d27
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #b31217,
+    #e52d27
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.backgroundUser {
+  background: #1a2980; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #26d0ce,
+    #1a2980
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #26d0ce,
+    #1a2980
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.back {
+  background: #232526; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #414345,
+    #232526
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #414345,
+    #232526
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.Login {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+
+  background: #232526; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #414345,
+    #232526
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #414345,
+    #232526
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.LoginBg {
+  background-image: url("https://images.unsplash.com/Ys-DBJeX0nE.JPG?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.submitBtn {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  border-color: hotpink;
+}
